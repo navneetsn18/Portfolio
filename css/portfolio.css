@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+*::selection {
+    background-color: yellow;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    min-height: 10vh;
+    align-items: center;
+    margin: auto;
+}
+
+.navLinks {
+    text-decoration: none;
+    list-style: none;
+}
+
+.navLinks:hover {
+    cursor: pointer;
+}
+
+#siteName {
+    font-weight: bold;
+}
+
+#siteName,
+#navLinkChild {
+    margin: 15px;
+    padding: 10px 10px;
+    text-decoration: none;
+    color: black;
+    font-size: 3em;
+}
+
+#navLinkChild {
+    font-size: 1.2em;
+}
+
+#siteName:hover,
+#navLinkChild:hover {
+    color: #0072ea;
+    border-radius: 5px;
+    border: 1px solid #0072ea;
+}
+
+.main {
+    display: flex;
+    margin: auto;
+    margin: 10%;
+}
+
+.conatiner1 {
+    font-size: 1.4em;
+    float: left;
+    margin-top: 20%;
+    margin: 5%;
+}
+
+.conatiner2 {
+    float: left;
+    margin: 10%;
+}
+
+#learnMore {
+    text-decoration: none;
+    color: black;
+    padding: 7px;
+    font-size: 1.2em;
+    border-radius: 5px;
+    border: 1px #071e3d solid;
+}
+
+#learnMore:hover {
+    color: white;
+    background-color: #071e3d;
+}
+
+.codingPanel {
+    padding: 5px;
+    font-size: 1.5em;
+    background-color: #071e3d;
+    height: 10em;
+    width: 17em;
+    border: 1px white double;
+    overflow: hidden;
+    border-radius: 7px;
+}
+
+#codingText {
+    color: white;
+}
+
+#cursor {
+    background-color: white;
+    margin-left: 2px;
+    animation: blink 1s infinite;
+}
+
+@keyframes blink {
+    50% {
+        background-color: #071e3d;
+    }
+}
+
+.connect {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.connect a {
+    transition: transform .2s;
+}
+
+.connect a:hover {
+    transform: scale(.75);
+    text-shadow: 7px 10px 15px black;
+}
+
+#hovercontent {
+    color: #0072ea;
+}
+
+#hovercontent:hover {
+    border: 0.1px solid #071e3d;
+    background-color: #071e3d;
+    color: white;
+}
