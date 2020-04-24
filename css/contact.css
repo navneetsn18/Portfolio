@@ -3,7 +3,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Crimson Text', serif;
 }
 
 *::selection {
@@ -22,6 +21,7 @@
 .navLinks {
     text-decoration: none;
     list-style: none;
+    font-family: 'Crimson Text', serif;
 }
 
 .navLinks:hover {
