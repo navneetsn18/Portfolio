@@ -135,7 +135,7 @@
 
 @media only screen and (max-width: 750px) {
     * {
-        font-size: 85%;
+        font-size: 83%;
     }
     #navLinkChild {
         font-size: 1em;
