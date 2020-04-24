@@ -113,3 +113,19 @@ p {
     background-color: #0072ea;
     color: white;
 }
+
+@media only screen and (max-width: 750px) {
+    * {
+        font-size: 80%;
+    }
+    img {
+        width: 100%;
+    }
+    .container {
+        width: 100%;
+    }
+    p,
+    #check {
+        font-size: 2em;
+    }
+}

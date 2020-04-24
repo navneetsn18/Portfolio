@@ -132,3 +132,21 @@
     background-color: #071e3d;
     color: white;
 }
+
+@media only screen and (max-width: 750px) {
+    * {
+        font-size: 85%;
+    }
+    #navLinkChild {
+        font-size: 1em;
+    }
+    #hovercontent {
+        display: inline-block;
+    }
+    #lets-connect {
+        font-size: 1.5em;
+    }
+    #learnMore {
+        font-size: 0.6em;
+    }
+}
