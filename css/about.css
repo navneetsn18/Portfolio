@@ -299,11 +299,11 @@ p {
     * {
         font-size: 99%;
     }
+    .namedetails {
+        height: 250vh;
+    }
     .skill {
         width: 120%;
-    }
-    .honor {
-        padding: 10px;
     }
 }
 
@@ -311,11 +311,11 @@ p {
     .wrapper {
         display: flow-root;
     }
+    .namedetails {
+        height: 250vh;
+    }
     .skill {
         width: 90%;
-    }
-    .honor {
-        padding: 10px;
     }
 }
 
@@ -325,6 +325,9 @@ p {
     }
     body {
         margin-right: -180px;
+    }
+    .namedetails {
+        height: 160vh;
     }
     #navLinkChild {
         font-size: 1.3em;
