@@ -323,58 +323,42 @@ p {
 
 @media only screen and (max-width: 675px) {
     * {
-        font-size: 80%;
+        font-size: 96%;
     }
     body {
         margin-right: -180px;
     }
-    #navLinkChild {
+    /* #navLinkChild {
         font-size: 1.3em;
-    }
+    } */
     img {
         height: 100px;
         width: 100px;
     }
-    h1 {
+    /* h1 {
         font-size: 2em;
-    }
+    } */
     .personaldetails {
-        margin-top: -2vh;
+        margin-top: 5vh;
     }
     .course,
     .course-int {
         padding: 0.5px;
-        font-size: 1.6em;
+        /* font-size: 1.6em; */
     }
     .year,
     .year-int {
-        font-size: 1.8em;
         padding: 1.5vh;
         margin-right: -1vh;
     }
-    #pad {
-        font-size: 1.8em;
-    }
-    #cgpa {
-        font-size: 1.8em;
-    }
-    #pad-int,
-    #cgpa-int,
-    .year-int,
-    .course-int {
-        font-size: 1.4em;
-    }
     .skill>p {
-        font-size: 2em;
+        font-size: 1em;
     }
     .skill {
         width: 70%;
     }
     .skill-bar span {
-        top: -15px;
-        font-size: 3em;
-    }
-    #award {
-        font-size: 2em;
+        top: -20px;
+        font-size: 1em;
     }
 }
