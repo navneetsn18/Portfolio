@@ -9,10 +9,6 @@
     background-color: yellow;
 }
 
-.namedetails {
-    height: 300vh;
-}
-
 .header {
     display: flex;
     justify-content: space-between;
@@ -299,6 +295,10 @@ p {
 #certificate:hover {
     color: white;
     background-color: #003580;
+}
+
+.namedetails {
+    height: 240vh;
 }
 
 @media only screen and (max-width:1100px) {
