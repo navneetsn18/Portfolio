@@ -29,8 +29,9 @@
 }
 
 .main {
-    margin: 15%;
+    margin: 10% 15% 0% 15%;
     text-align: center;
+    height: 100%;
 }
 
 #siteName {

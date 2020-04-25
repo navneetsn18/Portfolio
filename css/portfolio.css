@@ -55,8 +55,9 @@
 
 .main {
     display: flex;
+    justify-content: flex-start;
     margin: auto;
-    margin: 10%;
+    margin: 5% 10%;
 }
 
 .conatiner1 {

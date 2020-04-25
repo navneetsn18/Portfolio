@@ -52,13 +52,18 @@
     border: 1px solid #0072ea;
 }
 
+.main {
+    display: flex;
+    justify-content: flex-start;
+    height: 100%;
+}
+
 .namedetails {
     font-size: 1.3em;
     margin: 5%;
     float: left;
     text-align: center;
     color: #252525;
-    height: 190vh;
 }
 
 #pad,
@@ -112,6 +117,10 @@ p {
 .wrapper {
     width: 400px;
     margin: 0 auto;
+}
+
+.lang {
+    padding-right: 30%;
 }
 
 .skill {
@@ -297,16 +306,9 @@ p {
     background-color: #003580;
 }
 
-.namedetails {
-    height: 240vh;
-}
-
 @media only screen and (max-width:1100px) {
     * {
         font-size: 99%;
-    }
-    .namedetails {
-        height: 250vh;
     }
     .skill {
         width: 120%;
@@ -314,12 +316,6 @@ p {
 }
 
 @media only screen and (max-width: 1000px) {
-    .wrapper {
-        display: flow-root;
-    }
-    .namedetails {
-        height: 250vh;
-    }
     .skill {
         width: 90%;
     }
@@ -331,9 +327,6 @@ p {
     }
     body {
         margin-right: -180px;
-    }
-    .namedetails {
-        height: 150vh;
     }
     #navLinkChild {
         font-size: 1.3em;
@@ -370,9 +363,6 @@ p {
     .year-int,
     .course-int {
         font-size: 1.4em;
-    }
-    .lang {
-        display: flow-root;
     }
     .skill>p {
         font-size: 2em;
