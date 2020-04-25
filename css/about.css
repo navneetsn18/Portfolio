@@ -9,6 +9,10 @@
     background-color: yellow;
 }
 
+.namedetails {
+    height: 150vh;
+}
+
 .header {
     display: flex;
     justify-content: space-between;
